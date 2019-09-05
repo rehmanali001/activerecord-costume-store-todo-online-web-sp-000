@@ -10,5 +10,8 @@
 
 class Costume < ActiveRecord::Migration[5.2]
   
-
+  def change 
+    create_table :costumes.each do |t|
+      
+  end 
 end
